@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CotacaoMoeda</string>
+    <string name="r">R$</string>
+    <string name="informe_o_valor">Informe o valor:</string>
+    <string name="u">U$</string>
+    <string name="euro">€</string>
+    <string name="libra">£</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="voltar">voltar</string>
+</resources>

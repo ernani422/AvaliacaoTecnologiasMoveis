@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MostraTriangulo</string>
+    <string name="informe_as_medidas">Informe as medidas</string>
+    <string name="lado_1">Lado 1:</string>
+    <string name="lado_2">Lado 2:</string>
+    <string name="lado_3">Lado 3:</string>
+    <string name="exibir">EXIBIR</string>
+</resources>

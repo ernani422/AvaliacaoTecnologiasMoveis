@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9EFEB">
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="648dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            app:srcCompat="@drawable/img"
+            tools:ignore="ContentDescription" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewReal"
+                android:layout_width="68dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriadpro_1"
+                android:gravity="end"
+                android:paddingEnd="5dp"
+                android:text="@string/r"
+                android:textColor="#050505"
+                android:textSize="48sp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/editTextReal"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_style"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:inputType="numberDecimal"
+                android:paddingEnd="10dp"
+                android:textColor="#2C2C2C"
+                android:textSize="48sp"
+                tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewDolar"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriadpro_1"
+                android:paddingEnd="5dp"
+                android:text="@string/u"
+                android:textColor="#0E0E0E"
+                android:textSize="48sp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/editTextDolar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/text_style"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:inputType="numberDecimal"
+                android:paddingEnd="10dp"
+                android:textColor="#2C2C2C"
+                android:textSize="48sp"
+                tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewEuro"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriadpro_1"
+                android:gravity="end"
+                android:paddingEnd="5dp"
+                android:text="@string/euro"
+                android:textColor="#090909"
+                android:textSize="48sp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/editTextEuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/text_style"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:inputType="numberDecimal"
+                android:paddingEnd="10dp"
+                android:textColor="#2C2C2C"
+                android:textSize="48sp"
+                tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewLibra"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriadpro_1"
+                android:gravity="end"
+                android:paddingEnd="5dp"
+                android:text="@string/libra"
+                android:textColor="#0C0B0B"
+                android:textSize="48sp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/editTextLibra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/text_style"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:inputType="numberDecimal"
+                android:paddingEnd="10dp"
+                android:textColor="#2C2C2C"
+                android:textSize="48sp"
+                tools:ignore="Autofill,LabelFor,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            tools:ignore="InefficientWeight" />
+
+        <Button
+            android:id="@+id/buttonVoltar"
+            android:layout_width="311dp"
+            android:layout_height="54dp"
+            android:background="@drawable/color_style"
+            android:onClick="onClick"
+            android:text="@string/voltar"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
